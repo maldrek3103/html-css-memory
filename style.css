@@ -58,9 +58,10 @@ h1{
 .card:hover h2{
     visibility: visible;
 }
-.card:hover{
+.card:hover {
     background-color: #fff;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 .card.air-baloon:hover{
     background-image: url(./img/noun_air_balloon_3134741.png);
@@ -79,6 +80,14 @@ h1{
 }
 .card.cruise-ship:hover{
     background-image: url(./img/noun_Cruise_Ship_3134824.png);
+}
+.second-card-row :nth-child(3){
+    background-image: url(./img/noun_Submarine_3134738.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.second-card-row .card:nth-child(3) h2{
+    visibility: visible;
 }
 /* Footer */
 
