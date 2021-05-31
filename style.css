@@ -7,21 +7,25 @@
 }
 
 body{
+    background-color: #add8e6;
     font-family: 'Nerko One', cursive;
+    color: #fff;
+    text-align: center;
 }
 
+/* Utilities */
+
+.container{
+    max-width: 670px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+/* Main */
 
 
+/* Footer */
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    color: #000;
+}
